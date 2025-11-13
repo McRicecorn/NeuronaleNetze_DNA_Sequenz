@@ -1,0 +1,28 @@
+1:
+Load the dataset, inspect its structure and dimensions, and briefly describe its content.
+
+2:
+Transform the data into a form suitable for MLP input:
+– Convert to numpy / torch tensors
+– Flatten or reshape inputs as needed
+– Split into training and test sets
+
+3:
+Define an appropriate MLP architecture (e.g with PyTorch nn.Sequential). Include number of layers, activation functions, and output dimensions. Report structure and number of parameters
+
+4:
+Implement a full training loop including:
+– Loss function and optimizer
+– Iterative training with loss updates
+– Plot the loss history
+
+5:
+Generate predictions on the test set and compute suitable metrics:
+– Regression: MSE or R²
+– Classification: overall accuracy and class-wise metrices
+
+6:
+Plot training and validation loss curves, and visualize model results e.g. predicted vs. true values, or confusion matrices.
+
+7:
+Provide a short reflection on model behavior and performance.
